@@ -1,0 +1,4 @@
+para x desde 5 hasta 7 hacer {
+    imprimir("Hola");
+    imprimir("Mundo");
+}
