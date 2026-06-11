@@ -1,0 +1,29 @@
+GRAMATICA DE CONTEO
+
+La gramática permite reconocer instrucciones de conteo con la siguiente sintaxis:
+
+para contador desde NUMERO hasta NUMERO hacer {
+    imprimir("texto");
+}
+
+Elementos reconocidos:
+
+- para: inicio de la estructura de repetición.
+- contador: identificador del contador.
+- desde: valor inicial del conteo.
+- hasta: valor final del conteo.
+- hacer: inicio del bloque de instrucciones.
+- imprimir("texto"): salida por pantalla.
+- { }: delimitan el bloque de instrucciones.
+
+Ejemplo válido:
+
+para contador desde 1 hasta 3 hacer {
+    imprimir("Hola");
+}
+
+Salida esperada:
+
+Hola
+Hola
+Hola
