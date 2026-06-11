@@ -1,4 +1,4 @@
-import ConteoVisitor from "./generated/ConteoVisitor.js";
+import ConteoVisitor from "./ConteoVisitor.js";
 
 export default class CustomConteoVisitor extends ConteoVisitor {
     constructor() {
